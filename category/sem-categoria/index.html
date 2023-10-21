@@ -11,7 +11,15 @@
 				this.scrollY > 100 ? navElement.style.opacity = .8 : navElement.style.opacity = 1;
 			}
 
-			window.addEventListener("scroll", changeCss , false);</script>
+			window.addEventListener("scroll", changeCss , false);
+		
+		function changeCssMobile () {
+	  			var navElement = document.getElementById("ast-mobile-header");
+	  			this.scrollY > 100 ? navElement.style.background = "#8c1434" : navElement.style.background = "";
+				this.scrollY > 100 ? navElement.style.opacity = .8 : navElement.style.opacity = 1;
+			}
+
+			window.addEventListener("scroll", changeCssMobile , false);</script>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="alternate" type="application/rss+xml" title="Feed para Aço &amp; Navalha &raquo;" href="https://professorcristian.github.io/aco-navalha-professor/feed/">
